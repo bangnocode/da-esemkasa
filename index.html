@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DA ESEMKASA</title>
+
+    <link rel="icon" href="./img/dewan-ambalan.png">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+
+</head>
+
+<body class="overflow-x-hidden">
+
+    <nav class="bg-sky-950 fixed w-full z-20 top-0 start-0 shadow-xl">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="./img/dewan-ambalan.png" class="h-8" alt="Flowbite Logo">
+                <span class="self-center text-xl font-semibold whitespace-nowrap text-white">DA ESEMKASA</span>
+            </a>
+            <button data-collapse-toggle="navbar-sticky" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden focus:outline-none  "
+                aria-controls="navbar-sticky" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-sky-950 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+                    <li class="bg-yellow-500 rounded-lg">
+                        <a href="#" class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-white md:p-0"
+                            aria-current="page">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-white md:p-0 hover:text-white">Galeri</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-white md:p-0 hover:text-white">Berita</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-white md:p-0 hover:text-white">Struktur
+                            Organisasi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <section class="banner-welcome bg-[url(/img/bg-banner.JPG)] w-full bg-center h-screen bg-cover">
+            <div class="text-banner w-screen h-screen bg-black/90 flex flex-col justify-center items-center">
+                <div class="text-white text-center">
+                    <h1 class="font-medium text-2xl mb-8">Selamat Datang!</h1>
+                    <h2 class="font-medium text-base">Dewan Ambalan <br> SMK Negeri 1 Banyuwangi </h2>
+                </div>
+                <a href="#" class="bg-yellow-500 text-black p-4 rounded-xl font-medium absolute bottom-35">Yuk Explore
+                    Tentang Kita!</a>
+            </div>
+        </section>
+
+        <section class="section-activities px-6 py-12">
+            <h1 class="font-bold text-center text-2xl mb-4 text-yellow-500">Our Activities</h1>
+            <h1 class="mb-12 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+
+            <section class="mb-16 border p-6 shadow-xl rounded-lg">
+                <h1 class="font-bold text-2xl mb-4">PTA <br> (Penerimaan Tamu Ambalan)</h1>
+                <h1 class="text-base mb-4"><span class="font-bold">PTA (Penerimaan Tamu Ambalan),</span> sit amet
+                    consectetur adipisicing elit. Tempore, fugiat. Excepturi, ex quos tempora dolorem quae quam
+                    recusandae placeat, delectus quisquam eum, inventore impedit eos? Porro praesentium ut itaque?
+                    Dolorum.</h1>
+                <img src="./img/pta-img.JPG" alt="" class="w-full rounded-lg">
+            </section>
+
+            <section class="mb-16 border p-6 shadow-xl rounded-lg">
+                <h1 class="font-bold text-2xl mb-4">Jumat Rutin</h1>
+                <h1 class="text-base mb-4"><span class="font-bold">Jumat Rutin,</span> sit amet consectetur adipisicing
+                    elit. Tempore, fugiat. Excepturi, ex quos tempora dolorem quae quam recusandae placeat, delectus
+                    quisquam eum, inventore impedit eos? Porro praesentium ut itaque? Dolorum.</h1>
+                <img src="./img/pta-img.JPG" alt="" class="w-full rounded-lg">
+            </section>
+
+            <section class="mt-20 text-center">
+                <a href="#" class="bg-yellow-500 rounded-xl p-4 text-base font-medium">More Activites..</a>
+            </section>
+
+        </section>
+
+    </main>
+
+    <main>
+        <section class="bg-sky-900 px-6 py-12">
+            <section class="section-galeri-singkat">
+                <h1 class="font-bold text-center text-2xl mb-3 text-yellow-500">Galery</h1>
+                <h1 class="mb-12 text-center text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+
+                <div class="grid grid-cols-1 gap-4">
+                    <img src="./img/pta-img.JPG" alt="" class="w-full rounded-xl border-yellow-500 border-2">
+                    <img src="./img/pta-img.JPG" alt="" class="w-full rounded-xl border-yellow-500 border-2">
+                    <img src="./img/pta-img.JPG" alt="" class="w-full rounded-xl border-yellow-500 border-2">
+                </div>
+            </section>
+
+            <section class="mt-20 text-center">
+                <a href="#" class="bg-yellow-500 rounded-xl p-4 text-base font-medium">More Galery..</a>
+            </section>
+        </section>
+    </main>
+
+    <main class="py-12 px-6">
+        <section class="section-news">
+            <h1 class="font-bold text-center text-2xl mb-3 text-yellow-500">News</h1>
+            <h1 class="mb-12 text-center text-black">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+
+            <a href="#">
+                <article class="p-6 border rounded-lg shadow-xl">
+                    <img src="./img/pta-img.JPG" alt="" class="w-full rounded-lg">
+                    <h1 class="font-medium text-lg mt-6">Penerimaan Tamu Ambalan & Diesnatalis SMK Negeri 1 Banyuwangi
+                    </h1>
+                    <h1 class="text-sm mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nobis
+                        aliquam
+                        eum voluptate, omnis...</h1>
+                    <h1 class="font-medium text-sm text-gray-500 mt-4">Rabu, 25 Juli 2025</h1>
+                </article>
+            </a>
+
+            <a href="#">
+                <article class="p-6 border rounded-lg shadow-xl mt-16">
+                    <img src="./img/pta-img.JPG" alt="" class="w-full rounded-lg">
+                    <h1 class="font-medium text-lg mt-6">Penerimaan Tamu Ambalan & Diesnatalis SMK Negeri 1 Banyuwangi
+                    </h1>
+                    <h1 class="text-sm mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nobis
+                        aliquam
+                        eum voluptate, omnis...</h1>
+                    <h1 class="font-medium text-sm text-gray-500 mt-4">Rabu, 25 Juli 2025</h1>
+                </article>
+            </a>
+
+            <section class="mt-20 text-center">
+                <a href="#" class="bg-yellow-500 rounded-xl p-4 text-base font-medium">More News..</a>
+            </section>
+
+        </section>
+    </main>
+
+    <footer class="text-center font-medium bg-sky-900 text-white flex flex-col gap-6 items-center px-6 py-12">
+        <div class="flex flex-col gap-2 items-center">
+            <img src="./img/dewan-ambalan.png" alt="" class="w-16">
+            <h1>Dewan Ambalan <br> SMK Negeri 1 Banyuwangi</h1>
+        </div>
+        <div class="flex flex-col gap-2">
+            <a href="#">Home</a>
+            <a href="#">Activities</a>
+            <a href="#">Galery</a>
+            <a href="#">News</a>
+            <a href="#">Structure Organization</a>
+        </div>
+        <h1>2025 © Trino Studio. All Rights Reserved.</h1>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+
+</body>
+
+</html>
