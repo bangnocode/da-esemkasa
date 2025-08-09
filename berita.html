@@ -15,7 +15,7 @@
 
 <body class="overflow-x-hidden !scroll-smooth">
     <nav class="bg-sky-950 fixed w-full z-20 top-0 start-0 shadow-xl">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 md:!px-8">
             <a href="./index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="./img/dewan-ambalan.png" class="h-8" alt="Flowbite Logo">
                 <span class="self-center text-xl font-semibold whitespace-nowrap text-white">DA ESEMKASA</span>
@@ -32,58 +32,68 @@
             </button>
             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                 <ul
-                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-sky-950 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
-                    <li>
+                    class="flex flex-col items-center p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-sky-950 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+                    <li class="rounded-lg min-w-full md:min-w-max">
                         <a href="./index.html"
                             class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-white md:p-0"
                             aria-current="page">Beranda</a>
                     </li>
-                    <li>
+                    <li class="rounded-lg min-w-full md:min-w-max">
                         <a href="./kegiatan.html"
                             class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-white md:p-0 hover:text-white">Kegiatan</a>
                     </li>
-                    <li>
+                    <li class="rounded-lg min-w-full md:min-w-max">
                         <a href="./galeri.html"
                             class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-white md:p-0 hover:text-white">Galeri</a>
                     </li>
-                    <li class="bg-yellow-500 rounded-lg">
+                    <li class="bg-yellow-500 rounded-lg min-w-full md:min-w-max">
                         <a href="./berita.html"
-                            class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-white md:p-0 hover:text-white">Berita</a>
-                    </li>
-                    <li>
-                        <a href="./struktur-organisasi.html"
-                            class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-white md:p-0 hover:text-white">Struktur
-                            Organisasi</a>
+                            class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:text-white md:p-2 hover:text-white">Berita</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section class="mt-32 flex flex-col items-center">
-        <h1 class="font-bold text-3xl mb-2 text-yellow-500">BERITA</h1>
-        <h1 class="font-medium text-base text-center">Dewan Ambalan <br>SMK Negeri 1 Banyuwangi</h1>
+    <section class="mt-32 flex flex-col items-center px-6">
+        <h1 class="font-bold text-center text-2xl mb-4 text-yellow-500 md:!text-3xl">Berita</h1>
+        <h1 class="text-center font-medium md:text-xl text-black">Berita Tentang Informasi Terbaru Dari
+            Organisasi Dewan
+            Ambalan</h1>
     </section>
 
     <main class="py-12 px-6">
-        <section class="section-news">
-    
+        <section class="section-news grid grid-cols-1 md:grid-cols-3 gap-6">
+
             <a href="./berita/PTA2025.html">
                 <article class="p-6 border rounded-lg shadow-xl">
                     <img src="./img/bg-banner.webp" alt="" class="w-full rounded-lg">
                     <h1 class="font-medium text-lg mt-6">Penerimaan Tamu Ambalan & Diesnatalis SMK Negeri 1 Banyuwangi
                     </h1>
-                    <h1 class="text-sm mt-4">merupakan kegiatan gabungan antara Penerimaan Tamu Ambalan dan perayaan hari jadi sekolah yang dilaksanakan pada 18 Juli 2025. Kegiatan ini bertujuan ...</h1>
+                    <h1 class="text-sm mt-4">merupakan kegiatan gabungan antara Penerimaan Tamu Ambalan dan perayaan
+                        hari jadi sekolah yang dilaksanakan pada 18 Juli 2025. Kegiatan ini bertujuan ...</h1>
                     <h1 class="font-medium text-sm text-gray-500 mt-4">Rabu, 25 Juli 2025</h1>
                 </article>
             </a>
 
             <a href="./berita/open_recruitment_da_2025.html">
-                <article class="p-6 border rounded-lg shadow-xl mt-16">
+                <article class="p-6 border rounded-lg shadow-xl">
                     <img src="./img/bg-banner.webp" class="w-full rounded-lg">
                     <h1 class="font-medium text-lg mt-6">Open Recruitment Anggota Dewan Ambalan
                     </h1>
-                    <h1 class="text-sm mt-4">adalah proses seleksi terbuka bagi Pramuka Penegak di SMKN 1 Banyuwangi yang ingin bergabung dalam kepengurusan Ambalan. Kegiatan ini bertujuan ...</h1>
+                    <h1 class="text-sm mt-4">adalah proses seleksi terbuka bagi Pramuka Penegak di SMKN 1 Banyuwangi
+                        yang ingin bergabung dalam kepengurusan Ambalan. Kegiatan ini bertujuan ...</h1>
+                    <h1 class="font-medium text-sm text-gray-500 mt-4">Rabu, 25 Juli 2025</h1>
+                </article>
+            </a>
+
+            <a href="./berita/open_recruitment_da_2025.html">
+                <article class="p-6 border rounded-lg shadow-xl">
+                    <img src="./img/bg-banner.webp" class="w-full rounded-lg">
+                    <h1 class="font-medium text-lg mt-6">Open Recruitment Anggota Dewan Ambalan
+                    </h1>
+                    <h1 class="text-sm mt-4">adalah proses seleksi terbuka bagi Pramuka Penegak di SMKN 1 Banyuwangi
+                        yang ingin bergabung dalam kepengurusan Ambalan. Kegiatan ini bertujuan ...</h1>
                     <h1 class="font-medium text-sm text-gray-500 mt-4">Rabu, 25 Juli 2025</h1>
                 </article>
             </a>
@@ -98,11 +108,11 @@
             <h1>Dewan Ambalan <br> SMK Negeri 1 Banyuwangi</h1>
         </div>
         <div class="flex flex-col gap-2">
-            <a href="#">Beranda</a>
+            <a href="./index.html">Beranda</a>
             <a href="./kegiatan.html">Kegiatan</a>
-            <a href="#">Galeri</a>
-            <a href="#">Berita</a>
-            <a href="#">Struktur Organisasi</a>
+            <a href="./galeri.html">Galeri</a>
+            <a href="./berita.html">Berita</a>
+            <a href="./struktur-organisasi.html">Struktur Organisasi</a>
         </div>
         <h1>2025 © Trino Studio. All Rights Reserved.</h1>
     </footer>
